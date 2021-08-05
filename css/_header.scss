@@ -1,0 +1,41 @@
+body {
+    header {
+        .container-header {
+            align-items: center;
+            background-color: $color-fondo1;
+            display: flex;
+            height: 6.25rem;
+            justify-content: space-between;
+            padding: 1.25rem;
+
+            .logo-header {
+                align-items: center;
+                display: flex;
+                justify-content: flex-start;
+
+                h1 {
+                    color: $color-letra3;
+                    font-size: 1.5rem;
+                    padding-left: 0.63rem;
+    
+                    .logo1 {
+                        color: $color-letra1;
+                    }
+                    .logo2 {
+                        color: $color-letra2;
+                    }   
+                }    
+            }
+
+            nav {
+                ul {
+                    color: $color-letra3;
+                    display: flex;
+                    gap: 0.81rem;
+                    font-weight: normal;
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+}

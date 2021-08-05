@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: orange;
+}
+
+body header .container-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 6.25rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.25rem;
+}
+
+body header .container-header .logo-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body header .container-header .logo-header h1 {
+  color: #F3F3F3;
+  font-size: 1.5rem;
+  padding-left: 0.63rem;
+}
+
+body header .container-header .logo-header h1 .logo1 {
+  color: #39B24A;
+}
+
+body header .container-header .logo-header h1 .logo2 {
+  color: #FC200C;
+}
+
+body header .container-header nav ul {
+  color: #F3F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.81rem;
+  font-weight: normal;
+  list-style-type: none;
+}
+
+main .container-main {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.20rem;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+main .container-main .card-delivery {
+  background-image: url(/img/delivery.jpg);
+  background-repeat: no-repeat;
+  height: 21.88rem;
+  width: 30.63rem;
+}
+
+main .container-main .card-podio {
+  height: 21.88rem;
+  width: 30.63rem;
+}
+
+main .container-main .card-podio h2 {
+  color: #FC200C;
+}
+/*# sourceMappingURL=styles.css.map */
