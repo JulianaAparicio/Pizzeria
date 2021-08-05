@@ -17,23 +17,27 @@ body {
                     color: $color-letra3;
                     font-size: 1.5rem;
                     padding-left: 0.63rem;
-    
+
                     .logo1 {
                         color: $color-letra1;
                     }
+
                     .logo2 {
                         color: $color-letra2;
-                    }   
-                }    
+                    }
+                }
             }
 
             nav {
-                ul {
-                    color: $color-letra3;
+                .menu {
                     display: flex;
                     gap: 0.81rem;
-                    font-weight: normal;
                     list-style-type: none;
+                    a {
+                        color: $color-letra3;
+                        font-size: 1rem;
+                        font-weight: 400;
+                    }
                 }
             }
         }

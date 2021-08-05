@@ -12,7 +12,7 @@
 
 a:link,
 a:visited {
-  color: orange;
+  color: #F3F3F3;
 }
 
 body header .container-header {
@@ -56,42 +56,150 @@ body header .container-header .logo-header h1 .logo2 {
   color: #FC200C;
 }
 
-body header .container-header nav ul {
-  color: #F3F3F3;
+body header .container-header nav .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 0.81rem;
-  font-weight: normal;
   list-style-type: none;
+}
+
+body header .container-header nav .menu a {
+  color: #F3F3F3;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+main {
+  background-color: #E5E5E5;
 }
 
 main .container-main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #222222;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 1.20rem;
-  -webkit-box-pack: stretch;
-      -ms-flex-pack: stretch;
-          justify-content: stretch;
+  gap: 0.31rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 main .container-main .card-delivery {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-image: url(/img/delivery.jpg);
   background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   height: 21.88rem;
+  padding-top: 1.25rem;
   width: 30.63rem;
 }
 
+main .container-main .card-delivery h2 {
+  color: #FC200C;
+  font-size: 1.5rem;
+}
+
+main .container-main .card-delivery .titulo {
+  color: #F3F3F3;
+}
+
 main .container-main .card-podio {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 21.88rem;
+  padding-top: 1.63rem;
   width: 30.63rem;
 }
 
 main .container-main .card-podio h2 {
+  color: #FC200C;
+  font-size: 1.5rem;
+}
+
+main .container-main .card-podio .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container-main .card-podio .top h3 {
+  font-size: 1.25rem;
+}
+
+footer .footer-container {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-container ul > li {
+  gap: 0.75rem;
+}
+
+footer .footer-container ul > li a {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+footer .footer-container .logo-footer {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 9.38rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .footer-container .logo-footer h1 {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: #F3F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.25rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 0.63rem;
+}
+
+footer .footer-container .logo-footer h1 .logo1 {
+  color: #39B24A;
+}
+
+footer .footer-container .logo-footer h1 .logo2 {
   color: #FC200C;
 }
 /*# sourceMappingURL=styles.css.map */

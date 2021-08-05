@@ -1,0 +1,41 @@
+footer {
+    .footer-container {
+        align-content: center;
+        background-color: $color-fondo1;
+        display: flex;
+
+        ul>li {
+
+            gap: 0.75rem;
+
+            a {
+                font-size: 1rem;
+                font-weight: 400;
+            }
+        }
+
+        .logo-footer {
+            align-content: center;
+            display: flex;
+            height: 9.38rem;
+            justify-content: flex-end;
+
+            h1 {
+                align-content: center;
+                color: $color-letra3;
+                display: flex;
+                font-size: 1.25rem;
+                justify-content: center;
+                padding-left: 0.63rem;
+
+                .logo1 {
+                    color: $color-letra1;
+                }
+
+                .logo2 {
+                    color: $color-letra2;
+                }
+            }
+        }
+    }
+}
